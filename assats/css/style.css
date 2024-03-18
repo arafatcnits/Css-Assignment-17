@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: #f3e0e2;
+}
+.main_div {
+    background: blanchedalmond;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    transform: translateX(45%) translateY(22%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(136, 136, 136,0.2);
+}
+.from_items {
+    width: 50%;
+    background: white;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.from_text {
+    width: 50%;
+    background: #ff4455;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.from_items {
+    text-align: center;
+}
+.icon {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.icon :hover{
+    background: blue;
+}
+.facebook_icon:hover i{
+    color: white !important;
+    border: none;
+}
+.facebook_icon:hover{
+    border: none;
+}
+.twitter_icon:hover i{
+    color: white !important;
+    border: none;
+}
+.twitter_icon:hover{
+    border: none;
+}
+.facebook_icon {
+    border: 1px solid #b8b7b6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+   padding: 5px 0px 0px 0px;
+   color: black;
+}
+.twitter_icon {
+    border: 1px solid #b8b7b6;
+    border-radius: 50%;
+    width: 40px;
+    margin: 0px 0px 0px 10px;
+    padding: 5px 0px 0px 0px;
+    height: 40px;
+    color: black;
+}
+.from_items h1 {
+    font-size: 35px;
+    padding: 50px 0px 0px 0px;
+}
+.from_text h1{
+    font-size: 35px;
+    padding: 150px 0px 0px 0px;
+}
+.from_text {
+    text-align: center;
+    color: white;
+}
+.from_text p{
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+    color: #ffdce0;
+}
+.account {
+    padding: 50px 0px 0px 0px;
+    font-size: 16px;
+}
+/* .form {
+    padding: 10px 0px 0px 0px;
+} */
+input {
+    margin: 15px 0px 0px;
+    outline: none;
+    width: 280px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0px 0px 0px 10px;
+    background: #eeeeee;
+    color: #b8b7b6;
+    border: none;
+}
+.password{
+   padding: 20px 0px 0px 0px;
+}
+.password a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+button{
+    width: 140px;
+    height: 40px;
+    background: #ff4a2b;
+    border: none;
+    margin: 15px 0px 0px 0px;
+    border-radius: 50px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background: black;
+    border: none;
+}
